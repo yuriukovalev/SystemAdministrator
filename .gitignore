@@ -1,0 +1,16 @@
+# Секреты и окружение
+.env
+*.env
+secrets/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Локальные данные PowerShell-скриптов
+*.csv
+!example*.csv
+
+# OS
+.DS_Store
+Thumbs.db
